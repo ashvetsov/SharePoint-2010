@@ -1,0 +1,14 @@
+### Preamble
+
+Microsoft SharePoint has number of issues. I'm trying to make patches for the most annoying ones, so users could be much happier with it right now +)
+
+### Patches
+
+Detailed documentation will be ready a bit later.
+
+To apply WYSIWYG editor patch to your SharePoint 2010 instance, add following string to ```<head>``` of your Master Page:
+
+```html
+<!-- ATTENTION: Use this url for evaluation only! In production, use your local copy! -->
+<script type="text/javascript" src="https://raw.github.com/ashvetsov/SharePoint-2010/master/Patches/wysiwyg.js"></script>
+```
